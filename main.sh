@@ -12,4 +12,6 @@ dx ls "/Bulk/DRAGEN WGS/Whole genome variant call files (VCFs) (DRAGEN) [500k re
 done
 
 
-cat by_folders/ls_*.txt > merged.txt
+cat by_folders/ls_*.txt > all_WGS_files.txt 
+# resulted in 980,618 filenames, vcf.gz and vfc.gz.tbi file types
+# outputs (by_folder/ and all_WGS_files.txt) stored on NBER Server
